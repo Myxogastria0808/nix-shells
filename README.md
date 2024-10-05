@@ -34,7 +34,7 @@ in pkgs.mkShell {
 ```toml
 #参考サイト: https://rust-lang.github.io/rustup/overrides.html
 [toolchain]
-channel = "1.80.0"
+channel = "1.81.0"
 ```
 
 ### 参考サイト
