@@ -21,10 +21,11 @@ in pkgs.mkShell {
     }).rust
 
     (rustChannelOf {
-      version = "1.80.0";
+      version = "1.81.0";
       channel = "stable";
     }).rust
   ];
+  RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
 }
 ```
 
