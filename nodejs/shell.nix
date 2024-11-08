@@ -1,4 +1,6 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-23.11") {} }:
+{
+  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05") { },
+}:
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
@@ -6,3 +8,4 @@ pkgs.mkShell {
     corepack_21
   ];
 }
+
