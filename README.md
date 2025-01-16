@@ -47,7 +47,7 @@ https://scrapbox.io/mrsekut-p/nix-shell%E3%81%A7Rust%E7%92%B0%E5%A2%83%E3%82%92s
 
 ```nix
 {
-  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05") { },
+  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.11") { },
 }:
 
 pkgs.mkShellNoCC {
@@ -69,7 +69,7 @@ https://nix.dev/guides/recipes/python-environment.html
 
 ```nix
 {
-  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05") { },
+  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.11") { },
 }:
 
 pkgs.mkShell {
@@ -123,7 +123,7 @@ pkgs.mkShell {
 
 ```nix
 {
-  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.05") { },
+  pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-24.11") { },
 }:
 
 pkgs.mkShell {
